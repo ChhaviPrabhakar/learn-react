@@ -9,7 +9,7 @@ const ExpensesList = (props) => {
       <h2 className="expenses-list__fallback">Sorry, no expenses are found!</h2>
     );
   } else if (props.items.length === 1) {
-    text = <p className="expenses-list__fallback">Whoa! single expense here, you can add more.</p>;
+    text = <p className="expenses-list__fallback">Whoa! single expense is here, you can add more.</p>;
   }
 
   return (
