@@ -26,7 +26,7 @@ const DUMMY_EXPENSES = [
   },
   {
     id: Math.random().toString(),
-    date: new Date(2020, 4, 21),
+    date: new Date(2021, 4, 21),
     title: "I Pod",
     amount: 388.5,
     location: "Boring Road",
